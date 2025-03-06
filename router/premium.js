@@ -124,9 +124,9 @@ router.get('/premium', auth, async (req, res) => {
                 <nav class="navigation">
                     <h1>Expense Tracker</h1>
                      <div class="button">
-                        <button class="btn"><a href="http://localhost:3000/report">Report</a></button>
-                        <button class="btn"><a href="http://localhost:3000/expense">Expense Table</a></button>
-                        <button class="btn"><a href="http://localhost:3000/login">Log Out</a></button>
+                        <button class="btn"><a href="http://16.170.146.217/report">Report</a></button>
+                        <button class="btn"><a href="http://16.170.146.217/expense">Expense Table</a></button>
+                        <button class="btn"><a href="http://16.170.146.217/login">Log Out</a></button>
                     </div>
                 </nav>
                 <div class="container">

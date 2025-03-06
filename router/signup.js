@@ -21,12 +21,12 @@ router.post('/signup', async(req, res) => {
         password : hashedPassword,
     });
     res.status(201).send(`<h1>User Added</h1>
-            <h2><a href = 'http://localhost:3000/signup'>Go Back To Sign Up</a></h2>
+            <h2><a href = 'http://16.170.146.217/signup'>Go Back To Sign Up</a></h2>
         `);
     }catch(error) {
         console.log(error);
         res.status(403).send(`<h1>Email already Exists</h1>
-            <h2><a href = 'http://localhost:3000/signup'>Go Back To Sign Up</a></h2>`);
+            <h2><a href = 'http://16.170.146.217/signup'>Go Back To Sign Up</a></h2>`);
     }
 });
 

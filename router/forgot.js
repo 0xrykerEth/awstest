@@ -39,7 +39,7 @@ router.post('/forgot', async (req, res) => {
         expiresby: new Date(Date.now() + 3600000)
     });
 
-        const resetUrl = `http://localhost:3000/resetpassword/${resetId}`;
+        const resetUrl = `http://16.170.146.217/resetpassword/${resetId}`;
 
         const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
         const sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail();

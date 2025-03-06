@@ -49,7 +49,7 @@ router.get("/status/:orderId", async (req, res) => {
                     { where: { id: order.userId } } 
                 );
                 return res.send(`<h1>Payment Success! User upgraded to Premium.</h1>
-                                    <button><a href="http://localhost:3000/expense">Return To expenses</a></button>`);
+                                    <button><a href="http://16.170.146.217/expense">Return To expenses</a></button>`);
             }
         }
         res.send(`<h1>Payment ${orderStatus} for Order ${orderId}</h1>`);

@@ -25,7 +25,7 @@ router.post("/pay", auth,async (req, res) => {
             order_id: orderId,
             customer_details: { customer_id, customer_phone },
             order_meta: {
-                return_url: `http://localhost:3000/status/${orderId}`
+                return_url: `http://16.170.146.217/status/${orderId}`
             }
         };
         console.log('Reached and redirected to payment page');
